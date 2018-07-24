@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         vPager = (ViewPager) findViewById(R.id.viewpager1);
+        btnBack = (Button)findViewById(R.id.btnBack);
+        btnNext = (Button)findViewById(R.id.btnNext);
 
         FragmentManager fm = getSupportFragmentManager();
 
